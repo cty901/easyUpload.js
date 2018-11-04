@@ -303,6 +303,7 @@ https://github.com/funnyque
                 type: "POST",
                 data: fd,
                 processData: false,
+                dataType: 'json',
                 contentType: false,
                 timeout: option.timeout,
                 success: function (res) {
